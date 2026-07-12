@@ -1,28 +1,28 @@
 class Devx < Formula
   desc "Manage AI coding projects and tmux sessions"
   homepage "https://github.com/gunwooko/devx"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "tmux"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gunwooko/devx/releases/download/v0.1.0/devx_v0.1.0_darwin_arm64"
-      sha256 "0ce53d039581f3b609395a7e1a839c6aa864a8db94a91b456797a99c42b68f3a"
+      url "https://github.com/gunwooko/devx/releases/download/v0.1.1/devx_v0.1.1_darwin_arm64"
+      sha256 "f64b078e9d16e427d8d35c7fb6eb5c96bb44edab7da082c9203177dcd6c476d7"
     else
-      url "https://github.com/gunwooko/devx/releases/download/v0.1.0/devx_v0.1.0_darwin_amd64"
-      sha256 "9555f3e1b0745314f4f913933f24eefd31d105b02165143999b41de124b1b46d"
+      url "https://github.com/gunwooko/devx/releases/download/v0.1.1/devx_v0.1.1_darwin_amd64"
+      sha256 "eb50104e9929dcfc0e034bd2d8f160f6ea267adbb0d2d8702abf84e645ed160e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/gunwooko/devx/releases/download/v0.1.0/devx_v0.1.0_linux_arm64"
-      sha256 "c6af8d2f2f49535ed954d4f181dcdeb69c39a39794e488520d32fce2f5251014"
+      url "https://github.com/gunwooko/devx/releases/download/v0.1.1/devx_v0.1.1_linux_arm64"
+      sha256 "cd601c6dccaef6b88fff6ba389372028166e80cce3d04fa03a990a8d7c2b7a07"
     else
-      url "https://github.com/gunwooko/devx/releases/download/v0.1.0/devx_v0.1.0_linux_amd64"
-      sha256 "ba315a61b2adbea1156c29e5fd9ef8ba3887870e2c5faffa9deb3ad73eef7dbb"
+      url "https://github.com/gunwooko/devx/releases/download/v0.1.1/devx_v0.1.1_linux_amd64"
+      sha256 "1c5f235020efcaf7fea0a7295ff473e9e6d3e56ce789352a899dc32ccfe9ee30"
     end
   end
 
